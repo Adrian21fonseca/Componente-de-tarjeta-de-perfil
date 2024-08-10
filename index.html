@@ -2,34 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/escritorio.css">
+  <link rel="stylesheet" href="estilos/movil.css">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <title>Componente de tarjeta de perfil</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  
+  <div class="contenedor">
 
-  80K
-  Followers
+    <div class="parte-1">
 
-  803K
-  Likes
+      <div class="fondo">
+        <img class="avatar" src="images/image-victor.jpg" alt="avatar">
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <p class="nombre">
+          Victor Crest  <span class="edad"> 26</span>
+        </p>
+  
+        <p class="city">
+          London
+        </p>
+      </div>
+
+    </div>
+
+    <hr>  
+
+    <div class="estadisticas">
+
+      <p class="stack"><span class="number">80K</span><br>F o l l o w e r s</p>
+
+      <p class="stack"><span class="number">803K</span><br>L i k e s</p>
+
+      <p class="stack"><span class="number">1.4K</span><br>P h o t o s</p>
+
+    </div>
+
   </div>
+
 </body>
 </html>
