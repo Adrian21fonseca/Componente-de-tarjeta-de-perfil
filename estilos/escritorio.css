@@ -1,0 +1,12 @@
+@media (min-width:1000px){
+
+    body{
+        background-position: -200px -300px , 600px 380px;
+        background-size: 700px, 900px;
+    }
+
+    .contenedor{
+        width: 32%;
+    }
+
+}
